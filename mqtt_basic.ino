@@ -110,3 +110,8 @@ void loop()
   }
   client.loop();
 }
+
+class Millis {
+  public:
+    int runTime = millis();
+};
